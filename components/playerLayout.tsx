@@ -7,7 +7,7 @@ export default function PlayerLayout({children}) {
         <Sidebar />
       </Box>
       <Box marginLeft="250" marginBottom="100px" > {children}</Box>
-      <Box position="absolute" left="0" bottom="0">
+      <Box width="100%" height="100px" position="absolute" left="0" bottom="0" bg="green">
         player
       </Box>
     </Box>

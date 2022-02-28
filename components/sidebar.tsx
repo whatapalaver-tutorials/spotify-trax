@@ -72,7 +72,6 @@ export default function Sidebar() {
           </List>
         </Box>
       </Box>
-      
     </Box>
   )
 }
