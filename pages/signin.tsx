@@ -1,6 +1,6 @@
 import AuthForm from "components/authForm";
 
-const Signin = () => {
+const Signin = (props) => {
   return <AuthForm mode="signin" />
 }
 
