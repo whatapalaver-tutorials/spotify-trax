@@ -35,6 +35,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Prisma instructions
 
-`npx prisma push` - stages changes
+`npx prisma db push` - stages changes
 `npx prisma migrate dev` - commits changes on the pg database
 `npx prisma studio` - opens the prism gui
